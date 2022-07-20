@@ -10,9 +10,30 @@ ul {
     background-color: blue;
     width: 50px;
     height: 50px;
-    margin: 10px;
+    /*margin: 10px;*/
+}
+
+.empty {
+    background-color: grey;
 }
 
 .selected {
     background: orange;
+}
+
+.container {
+  display: grid;
+  grid-template-columns:   repeat(10, 1fr);
+  grid-template-rows:   repeat(5, 1fr); 
+  row-gap: 15px;
+  column-gap: 15px;
+  max-width: 500px;
+}
+
+.letter {
+ display: grid;
+  grid-template-columns:   repeat(4, 1fr);
+  grid-template-rows:   repeat(5, 1fr); 
+
+  row-gap: 15px; 
 }
